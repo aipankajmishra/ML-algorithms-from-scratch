@@ -1,0 +1,8 @@
+
+1. Implement the train_test_split method on your own.
+Status: TODO
+-> Right now, I am using train_test_split() method from sklearn.model_selection module. This needs to be implemented from scratch too.
+
+2. Implement the accuracy function for classification problems.
+Status: TODO
+-> No implementation till date. 
