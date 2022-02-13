@@ -4,5 +4,16 @@ Status: TODO
 -> Right now, I am using train_test_split() method from sklearn.model_selection module. This needs to be implemented from scratch too.
 
 2. Implement the accuracy function for classification problems.
+Status: Done
+-> Implementation done on commit e09228c
+
+3. Implement the RMSE function to evaluate the regression problems.
+Status: Done
+-> Implementation done.
+
+4. Implement the R^2 function to find the goodness-of-fit of the dataset.
 Status: TODO
--> No implementation till date. 
+-> Implementation to be done.
+
+5. Implement standardize method
+Status: Done

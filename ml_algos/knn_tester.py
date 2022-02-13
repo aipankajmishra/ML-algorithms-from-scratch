@@ -1,13 +1,7 @@
-
 import sys
-
-
-from sklearn.datasets import load_iris
-from sklearn.model_selection import train_test_split
 sys.path.append('../')
 
-from ml_algorithms.supervised.knn import *
-from ml_algorithms.metrices.classification_metrices import *
+from lib_imports import *
 
 def main():
 	print("Running the KNN algorithm implementation from scratch")
@@ -20,7 +14,7 @@ def main():
 	X_train, X_test, y_train, y_test = train_test_split(X,y,test_size = 0.33, random_state = 42)
 
 	"""
-		Now we have the split, lets call the 
+		Now we have the split, lets call the KNN implementation to fit the train data and have the predictions
 	"""
 
 	clf = KNN(k = 10)
